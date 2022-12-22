@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<head>
+    <link rel="stylesheet" href="stylerps.css">
+    <title>Rock, Paper, Scissors</title>
+</head>
+
+<body>
+    <div>
+        <p id="player">Player's Play</p>
+        <p id="cpu">CPU Play</p>
+    </div>
+
+    <div class="plays">
+        <img id="triangleImg2" src="triangle.svg" role="button" style="display: block;">
+        <img id="rockImg" src="rock.svg" role="button" style="display: block;" >
+        <img id="paperImg" src="paper.svg" role="button" style="display: block;">
+        <img id="scissorsImg" src="scissors.svg" role="button" style="display: block;">
+        <img id="triangleImg" src="triangle2.svg" role="button" style="display: block;">
+        <img id="rockImg2" src="rock2.svg" role="button" style="display: block;"  onclick="playerPlaysRock()">
+        <img id="paperImg2" src="paper2.svg" role="button" style="display: block;" onclick="playerPlaysPaper()">
+        <img id="scissorsImg2" src="scissors2.svg" role="button" style="display: block;" onclick="playerPlaysScissors()">
+    </div>
+
+    <button id="restart" onclick="restart()">New Game</button>
+
+    <script src="jsrps.js"></script>
+</body>
+
+</html>

@@ -1,0 +1,113 @@
+body {
+    background-image: radial-gradient(hsl(214, 47%, 23%), hsl(237, 49%, 15%));
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+    background-attachment: fixed;
+}
+
+#triangleImg {
+    position: absolute;
+    bottom: 30%;
+    left: 20%;
+}
+
+#rockImg {
+    height: 70px;
+    position: absolute;
+    bottom: 55%;
+    left: 24%;
+}
+
+#paperImg {
+    height: 70px;
+    position: absolute;
+    bottom: 55%;
+    left: 32%;
+}
+
+#scissorsImg {
+    height: 70px;
+    position: absolute;
+    bottom: 40%;
+    left: 28.5%;
+}
+
+#triangleImg2 {
+    position: absolute;
+    bottom: 30%;
+    right: 20%;
+}
+
+#rockImg2 {
+    height: 70px;
+    position: absolute;
+    bottom: 55%;
+    right: 32%;
+}
+
+#rockImg2:hover {
+    border: 2px solid yellow;
+    border-radius: 50%;
+    background-color: yellow;
+    cursor: pointer;
+}
+
+#paperImg2 {
+    height: 70px;
+    position: absolute;
+    bottom: 55%;
+    right: 24.5%;
+}
+
+#paperImg2:hover {
+    border: 2px solid yellow;
+    border-radius: 50%;
+    background-color: yellow;
+    cursor: pointer;
+}
+
+#scissorsImg2 {
+    height: 70px;
+    position: absolute;
+    bottom: 40%;
+    right: 28%;
+}
+
+#scissorsImg2:hover {
+    border: 3px solid yellow;
+    border-radius: 50%;
+    background-color: yellow;
+    cursor: pointer;
+}
+
+#player {
+    color: white;
+    font-size: 50px;
+    position: absolute;
+    right: 22%;
+    top: 15%;
+}
+
+#cpu {
+    color: white;
+    font-size: 50px;
+    position: absolute;
+    left: 24%;
+    top: 15%;
+}
+
+button {
+    position: absolute;
+    bottom: 7%;
+    left: 47%;
+    height: 60px;
+    width: 100px;
+    border-radius: 30%;
+    background-color: bisque;
+}
+
+button:hover {
+    background-color:#002ead;
+    cursor: pointer;
+}
