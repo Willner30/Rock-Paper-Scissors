@@ -8,9 +8,12 @@
     <div>
         <p id="player">Player's Play</p>
         <p id="cpu">CPU Play</p>
+        <p id="score">Score:</p>
+        <p id="cpuScore">0</p>
+        <p id="playerScore">0</p>
     </div>
 
-    <div class="plays">
+    <div class="playsImg">
         <img id="triangleImg2" src="triangle.svg" role="button" style="display: block;">
         <img id="rockImg" src="rock.svg" role="button" style="display: block;" >
         <img id="paperImg" src="paper.svg" role="button" style="display: block;">
@@ -20,6 +23,8 @@
         <img id="paperImg2" src="paper2.svg" role="button" style="display: block;" onclick="playerPlaysPaper()">
         <img id="scissorsImg2" src="scissors2.svg" role="button" style="display: block;" onclick="playerPlaysScissors()">
     </div>
+
+    <p id="result"></p>
 
     <button id="restart" onclick="restart()">New Game</button>
 

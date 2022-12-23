@@ -82,7 +82,7 @@ body {
 }
 
 #player {
-    color: white;
+    color: lightblue;
     font-size: 50px;
     position: absolute;
     right: 22%;
@@ -90,7 +90,7 @@ body {
 }
 
 #cpu {
-    color: white;
+    color: gray;
     font-size: 50px;
     position: absolute;
     left: 24%;
@@ -110,4 +110,34 @@ button {
 button:hover {
     background-color:#002ead;
     cursor: pointer;
+}
+
+#score {
+    color: aliceblue;
+    text-align: center;
+    font-size: 40px;
+}
+
+#cpuScore {
+    color: gray;
+    font-size: 25px;
+    position: absolute;
+    top: 10%;
+    left: 48%;
+}
+
+#playerScore {
+    color: lightblue;
+    font-size: 25px;
+    position: absolute;
+    top: 10%;
+    right: 48%;
+}
+
+#result {
+    color: aliceblue;
+    text-align: center;
+    font-size: 50px;
+    position: relative;
+    top: 200px;
 }
