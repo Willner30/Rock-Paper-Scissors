@@ -6,44 +6,52 @@ body {
     background-attachment: fixed;
 }
 
+.cpuImg {
+    position: relative;
+}
+
+.playerImg {
+    position: relative;
+} 
+
 #triangleImg {
     position: absolute;
-    bottom: 30%;
-    left: 20%;
+    left: 320px;
+    top: 120px;
 }
 
 #rockImg {
     height: 70px;
     position: absolute;
-    bottom: 55%;
-    left: 24%;
+    left: 380px;
+    top: 145px;
 }
 
 #paperImg {
     height: 70px;
     position: absolute;
-    bottom: 55%;
-    left: 32%;
+    left: 500px;
+    top: 145px;
 }
 
 #scissorsImg {
     height: 70px;
     position: absolute;
-    bottom: 40%;
-    left: 28.5%;
+    left: 450px;
+    top: 250px;
 }
 
 #triangleImg2 {
     position: absolute;
-    bottom: 30%;
-    right: 20%;
+    right: 320px;
+    top: 120px;
 }
 
 #rockImg2 {
     height: 70px;
     position: absolute;
-    bottom: 55%;
-    right: 32%;
+    right: 390px;
+    top: 145px;
 }
 
 #rockImg2:hover {
@@ -56,8 +64,8 @@ body {
 #paperImg2 {
     height: 70px;
     position: absolute;
-    bottom: 55%;
-    right: 24.5%;
+    right: 510px;
+    top: 145px;
 }
 
 #paperImg2:hover {
@@ -70,8 +78,8 @@ body {
 #scissorsImg2 {
     height: 70px;
     position: absolute;
-    bottom: 40%;
-    right: 28%;
+    right: 445px;
+    top: 250px;
 }
 
 #scissorsImg2:hover {
@@ -85,16 +93,16 @@ body {
     color: lightblue;
     font-size: 50px;
     position: absolute;
-    right: 22%;
-    top: 15%;
+    right: 350px;
+    top: 1px;
 }
 
 #cpu {
     color: gray;
     font-size: 50px;
     position: absolute;
-    left: 24%;
-    top: 15%;
+    left: 360px;
+    top: 1px;
 }
 
 button {
@@ -112,6 +120,10 @@ button:hover {
     cursor: pointer;
 }
 
+#scoreBoard {
+    position: relative;
+}
+
 #score {
     color: aliceblue;
     text-align: center;
@@ -122,16 +134,16 @@ button:hover {
     color: gray;
     font-size: 25px;
     position: absolute;
-    top: 10%;
-    left: 48%;
+    top: 80px;
+    left: 725px;
 }
 
 #playerScore {
     color: lightblue;
     font-size: 25px;
     position: absolute;
-    top: 10%;
-    right: 48%;
+    top: 80px;
+    right: 735px;
 }
 
 #result {

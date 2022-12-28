@@ -1,23 +1,27 @@
 <!DOCTYPE html>
 <head>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="stylesheet" href="stylerps.css">
     <title>Rock, Paper, Scissors</title>
 </head>
 
 <body>
-    <div>
-        <p id="player">Player's Play</p>
-        <p id="cpu">CPU's Play</p>
+    <div class="scoreBoard">
         <p id="score">Score:</p>
         <p id="cpuScore">0</p>
         <p id="playerScore">0</p>
     </div>
-
-    <div class="playsImg">
+    
+    <div class="cpuImg">
+        <p id="cpu">CPU's Play</p>
         <img id="triangleImg2" src="triangle.svg" role="button" style="display: block;">
         <img id="rockImg" src="rock.svg" role="button" style="display: block;" >
         <img id="paperImg" src="paper.svg" role="button" style="display: block;">
         <img id="scissorsImg" src="scissors.svg" role="button" style="display: block;">
+    </div>
+    
+    <div class="playerImg">
+        <p id="player">Player's Play</p>
         <img id="triangleImg" src="triangle2.svg" role="button" style="display: block;">
         <img id="rockImg2" src="rock2.svg" role="button" style="display: block;"  onclick="playerPlaysRock()">
         <img id="paperImg2" src="paper2.svg" role="button" style="display: block;" onclick="playerPlaysPaper()">
