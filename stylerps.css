@@ -14,33 +14,6 @@ body {
     position: relative;
 } 
 
-#triangleImg {
-    position: absolute;
-    left: 320px;
-    top: 120px;
-}
-
-#rockImg {
-    height: 70px;
-    position: absolute;
-    left: 380px;
-    top: 145px;
-}
-
-#paperImg {
-    height: 70px;
-    position: absolute;
-    left: 500px;
-    top: 145px;
-}
-
-#scissorsImg {
-    height: 70px;
-    position: absolute;
-    left: 450px;
-    top: 250px;
-}
-
 #triangleImg2 {
     position: absolute;
     right: 320px;
@@ -54,25 +27,11 @@ body {
     top: 145px;
 }
 
-#rockImg2:hover {
-    border: 2px solid yellow;
-    border-radius: 50%;
-    background-color: yellow;
-    cursor: pointer;
-}
-
 #paperImg2 {
     height: 70px;
     position: absolute;
     right: 510px;
     top: 145px;
-}
-
-#paperImg2:hover {
-    border: 2px solid yellow;
-    border-radius: 50%;
-    background-color: yellow;
-    cursor: pointer;
 }
 
 #scissorsImg2 {
@@ -82,7 +41,48 @@ body {
     top: 250px;
 }
 
-#scissorsImg2:hover {
+#triangleImg {
+    position: absolute;
+    left: 320px;
+    top: 120px;
+}
+
+#rockImg {
+    height: 70px;
+    position: absolute;
+    left: 380px;
+    top: 145px;
+}
+
+#rockImg:hover {
+    border: 2px solid yellow;
+    border-radius: 50%;
+    background-color: yellow;
+    cursor: pointer;
+}
+
+#paperImg {
+    height: 70px;
+    position: absolute;
+    left: 500px;
+    top: 145px;
+}
+
+#paperImg:hover {
+    border: 2px solid yellow;
+    border-radius: 50%;
+    background-color: yellow;
+    cursor: pointer;
+}
+
+#scissorsImg {
+    height: 70px;
+    position: absolute;
+    left: 450px;
+    top: 250px;
+}
+
+#scissorsImg:hover {
     border: 3px solid yellow;
     border-radius: 50%;
     background-color: yellow;
@@ -90,18 +90,18 @@ body {
 }
 
 #player {
-    color: lightblue;
+    color: gray;
     font-size: 50px;
     position: absolute;
-    right: 350px;
+    left: 355px;
     top: 1px;
 }
 
 #cpu {
-    color: gray;
+    color: lightblue;
     font-size: 50px;
     position: absolute;
-    left: 360px;
+    right: 355px;
     top: 1px;
 }
 
@@ -131,19 +131,19 @@ button:hover {
 }
 
 #cpuScore {
-    color: gray;
-    font-size: 25px;
-    position: absolute;
-    top: 80px;
-    left: 725px;
-}
-
-#playerScore {
     color: lightblue;
     font-size: 25px;
     position: absolute;
     top: 80px;
     right: 735px;
+}
+
+#playerScore {
+    color: gray;
+    font-size: 25px;
+    position: absolute;
+    top: 80px;
+    left: 725px;
 }
 
 #result {
