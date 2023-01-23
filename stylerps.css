@@ -23,14 +23,14 @@ body {
 #rockImg2 {
     height: 70px;
     position: absolute;
-    right: 390px;
+    right: 505px;
     top: 145px;
 }
 
 #paperImg2 {
     height: 70px;
     position: absolute;
-    right: 510px;
+    right: 390px;
     top: 145px;
 }
 
@@ -90,7 +90,7 @@ body {
 }
 
 #player {
-    color: gray;
+    color: lightblue;
     font-size: 50px;
     position: absolute;
     left: 355px;
@@ -98,7 +98,7 @@ body {
 }
 
 #cpu {
-    color: lightblue;
+    color: gray;
     font-size: 50px;
     position: absolute;
     right: 355px;
@@ -131,7 +131,7 @@ button:hover {
 }
 
 #cpuScore {
-    color: lightblue;
+    color: gray;
     font-size: 25px;
     position: absolute;
     top: 80px;
@@ -139,7 +139,7 @@ button:hover {
 }
 
 #playerScore {
-    color: gray;
+    color: lightblue;
     font-size: 25px;
     position: absolute;
     top: 80px;
